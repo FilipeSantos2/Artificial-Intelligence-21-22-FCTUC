@@ -1,1 +1,1 @@
-# Artificial-Intelligence-21-22-FCTUC
+# Artificial Intelligence 21/22 (FCTUC)
