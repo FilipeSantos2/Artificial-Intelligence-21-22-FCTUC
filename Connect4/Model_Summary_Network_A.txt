@@ -1,0 +1,54 @@
+New Model - Network A
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 7, 7, 20)          520       
+                                                                 
+ leaky_re_lu (LeakyReLU)     (None, 7, 7, 20)          0         
+                                                                 
+ conv2d_1 (Conv2D)           (None, 7, 7, 20)          6420      
+                                                                 
+ leaky_re_lu_1 (LeakyReLU)   (None, 7, 7, 20)          0         
+                                                                 
+ conv2d_2 (Conv2D)           (None, 7, 7, 20)          6420      
+                                                                 
+ leaky_re_lu_2 (LeakyReLU)   (None, 7, 7, 20)          0         
+                                                                 
+ conv2d_3 (Conv2D)           (None, 7, 7, 30)          9630      
+                                                                 
+ leaky_re_lu_3 (LeakyReLU)   (None, 7, 7, 30)          0         
+                                                                 
+ conv2d_4 (Conv2D)           (None, 7, 7, 30)          14430     
+                                                                 
+ leaky_re_lu_4 (LeakyReLU)   (None, 7, 7, 30)          0         
+                                                                 
+ conv2d_5 (Conv2D)           (None, 7, 7, 30)          14430     
+                                                                 
+ leaky_re_lu_5 (LeakyReLU)   (None, 7, 7, 30)          0         
+                                                                 
+ conv2d_6 (Conv2D)           (None, 7, 7, 30)          14430     
+                                                                 
+ leaky_re_lu_6 (LeakyReLU)   (None, 7, 7, 30)          0         
+                                                                 
+ flatten (Flatten)           (None, 1470)              0         
+                                                                 
+ dense (Dense)               (None, 49)                72079     
+                                                                 
+ leaky_re_lu_7 (LeakyReLU)   (None, 49)                0         
+                                                                 
+ dense_1 (Dense)             (None, 7)                 350       
+                                                                 
+ leaky_re_lu_8 (LeakyReLU)   (None, 7)                 0         
+                                                                 
+ dense_2 (Dense)             (None, 7)                 56        
+                                                                 
+ leaky_re_lu_9 (LeakyReLU)   (None, 7)                 0         
+                                                                 
+ dense_3 (Dense)             (None, 1)                 8         
+                                                                 
+=================================================================
+Total params: 138,773
+Trainable params: 138,773
+Non-trainable params: 0
+_________________________________________________________________

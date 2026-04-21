@@ -1,0 +1,1 @@
+Q-Learning Agent vs Random Agent {1: 1463, 2: 336, 0: 1, 'Number of Moves': 13.00611111111111}

@@ -1,0 +1,1 @@
+Random Agent vs MCTS Agent {1: 945, 2: 851, 0: 4, 'Number of Moves': 21.341666666666665}
